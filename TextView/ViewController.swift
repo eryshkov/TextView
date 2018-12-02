@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         return bottomConstraint.constant
     }()
     
-    let maxTextCount = 2000
+    let maxTextCount = 20
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,10 +26,14 @@ class ViewController: UIViewController {
 //      1. Set delegate
         textView.delegate = self
         
+        textView.text.removeAll()
+        countLabel.text = "\(textView.text.count)"
+        
         textView.font = UIFont(name: "AppleSDGothicNeo-Regular", size: 17)
         textView.backgroundColor = self.view.backgroundColor
-        
         textView.layer.cornerRadius = 10
+        textView.layer.borderColor = UIColor.blue.cgColor
+        textView.layer.borderWidth = 1
         
 //       Tracks appearing keyboard
         NotificationCenter.default.addObserver(self, selector: #selector(updateTextView(notification:)), name: UIApplication.keyboardWillShowNotification, object: nil)

@@ -12,6 +12,8 @@
 		5C87F2B321B3CE4200355BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C87F2B121B3CE4200355BCA /* Main.storyboard */; };
 		5C87F2B521B3CE4300355BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C87F2B421B3CE4300355BCA /* Assets.xcassets */; };
 		5C87F2B821B3CE4300355BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C87F2B621B3CE4300355BCA /* LaunchScreen.storyboard */; };
+		5C87F2C121B3E97400355BCA /* IMG_47732A24E430-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C87F2C021B3E97400355BCA /* IMG_47732A24E430-1.jpeg */; };
+		5C87F2C421B3E9B100355BCA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C87F2C321B3E9B100355BCA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5C87F2B421B3CE4300355BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C87F2B721B3CE4300355BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C87F2B921B3CE4300355BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C87F2C021B3E97400355BCA /* IMG_47732A24E430-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_47732A24E430-1.jpeg"; sourceTree = "<group>"; };
+		5C87F2C321B3E9B100355BCA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		5C87F2A121B3CE4200355BCA = {
 			isa = PBXGroup;
 			children = (
+				5C87F2C321B3E9B100355BCA /* README.md */,
+				5C87F2BF21B3E79600355BCA /* screens */,
 				5C87F2AC21B3CE4200355BCA /* TextView */,
 				5C87F2AB21B3CE4200355BCA /* Products */,
 			);
@@ -62,6 +68,14 @@
 				5C87F2B921B3CE4300355BCA /* Info.plist */,
 			);
 			path = TextView;
+			sourceTree = "<group>";
+		};
+		5C87F2BF21B3E79600355BCA /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				5C87F2C021B3E97400355BCA /* IMG_47732A24E430-1.jpeg */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +138,9 @@
 			files = (
 				5C87F2B821B3CE4300355BCA /* LaunchScreen.storyboard in Resources */,
 				5C87F2B521B3CE4300355BCA /* Assets.xcassets in Resources */,
+				5C87F2C421B3E9B100355BCA /* README.md in Resources */,
 				5C87F2B321B3CE4200355BCA /* Main.storyboard in Resources */,
+				5C87F2C121B3E97400355BCA /* IMG_47732A24E430-1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
